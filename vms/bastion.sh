@@ -11,4 +11,4 @@ virt-install \
      --console pty,target_type=serial \
      --noautoconsole \
      -x 'console=ttyS0,115200n8 serial' \
-     -x "ks=https://raw.githubusercontent.com/Odilhao/ex294-rhce-lab/master/kickstart/bastion.cfg" 
+     -x "ks=https://raw.githubusercontent.com/oernii/ex294-rhce-lab/master/kickstart/bastion.cfg" 
